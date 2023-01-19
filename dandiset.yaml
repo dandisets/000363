@@ -25,19 +25,19 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 19132594150
-  numberOfFiles: 176
-  numberOfSubjects: 28
+  numberOfBytes: 13844160140
+  numberOfFiles: 40
+  numberOfSubjects: 8
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - Units
-  - ElectrodeGroup
   - BehavioralEvents
+  - ElectrodeGroup
   - BehavioralTimeSeries
+  - Units
 citation: Chen, Susu; Nguyen, Thinh; Li, Nuo; Svoboda, Karel (2023) Mesoscale Activity
   Map Dataset (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000363/draft
 contributor:
