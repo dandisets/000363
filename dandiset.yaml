@@ -9,9 +9,35 @@ access:
 acknowledgement: Supported by Simons Collaboration on the Global Brain, Janelia Visitor
   Project, NIH U19NS123714-01, R01NS112312, R01EB028171, McKnight foundation
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 65059242446
+  numberOfFiles: 174
+  numberOfSubjects: 28
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - BehavioralEvents
+  - ElectrodeGroup
+  - BehavioralTimeSeries
+  - Units
 citation: Chen, Susu; Nguyen, Thinh; Li, Nuo; Svoboda, Karel (2023) Mesoscale Activity
   Map Dataset (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000363/draft
 contributor:
