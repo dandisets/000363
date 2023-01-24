@@ -39,7 +39,7 @@ assetsSummary:
   - BehavioralTimeSeries
   - Units
 citation: Chen, Susu; Nguyen, Thinh; Li, Nuo; Svoboda, Karel (2023) Mesoscale Activity
-  Map Dataset (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000363/draft
+  Map Dataset (Version 0.230124.1456) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000363/0.230124.1456
 contributor:
 - affiliation: []
   email: chens2@janelia.hhmi.org
@@ -68,6 +68,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2022-11-22T00:16:37.650241+00:00'
+datePublished: '2023-01-24T14:56:23.348643+00:00'
 description: 'Mesoscale Activity Map Project. Map behavior-related activity in a multi-regional
   network supporting memory-guided movement in mice. Anatomy-guided recordings from
   multiple connected brain regions, from anterior lateral motor cortex to the medulla.
@@ -75,21 +76,34 @@ description: 'Mesoscale Activity Map Project. Map behavior-related activity in a
 
   Supported by Simons Collaboration on the Global Brain, Janelia Visitor Project,
   NIH U19NS123714-01, R01NS112312, R01EB028171, McKnight foundation'
+doi: 10.48324/dandi.000363/0.230124.1456
 ethicsApproval: []
-id: DANDI:000363/draft
+id: DANDI:000363/0.230124.1456
 identifier: DANDI:000363
 keywords: []
 license:
 - spdx:CC0-1.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000363/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000363/0.230124.1456/assets.yaml
 name: Mesoscale Activity Map Dataset
 protocol: []
+publishedBy:
+  endDate: '2023-01-24T14:56:23.348643+00:00'
+  id: urn:uuid:ac07bae7-c885-4b19-9ac6-243c22b29bc1
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-01-24T14:56:23.348643+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:57fb9ea2-c7e0-4b1b-8df9-30708b1ddefc
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000363/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000363/0.230124.1456
+version: 0.230124.1456
 wasGeneratedBy: []
