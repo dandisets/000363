@@ -39,7 +39,7 @@ assetsSummary:
   - ElectrodeGroup
   - BehavioralEvents
 citation: Chen, Susu; Nguyen, Thinh; Li, Nuo; Svoboda, Karel (2023) Mesoscale Activity
-  Map Dataset (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  Map Dataset (Version 0.230214.1833) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000363/0.230214.1833
 contributor:
 - affiliation: []
   email: chens2@janelia.hhmi.org
@@ -76,15 +76,15 @@ description: 'Mesoscale Activity Map Project. Map behavior-related activity in a
 
   Supported by Simons Collaboration on the Global Brain, Janelia Visitor Project,
   NIH U19NS123714-01, R01NS112312, R01EB028171, McKnight foundation'
-doi: 10.80507/dandi.123456/0.123456.1234
+doi: 10.48324/dandi.000363/0.230214.1833
 ethicsApproval: []
-id: DANDI:000363/draft
+id: DANDI:000363/0.230214.1833
 identifier: DANDI:000363
 keywords: []
 license:
 - spdx:CC0-1.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000363/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000363/0.230214.1833/assets.yaml
 name: Mesoscale Activity Map Dataset
 protocol: []
 publishedBy:
@@ -104,6 +104,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000363/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000363/0.230214.1833
+version: 0.230214.1833
 wasGeneratedBy: []
