@@ -10,34 +10,34 @@ acknowledgement: Supported by Simons Collaboration on the Global Brain, Janelia 
   Project, NIH U19NS123714-01, R01NS112312, R01EB028171, McKnight foundation
 assetsSummary:
   approach:
-  - name: electrophysiological approach
-    schemaKey: ApproachType
   - name: behavioral approach
+    schemaKey: ApproachType
+  - name: electrophysiological approach
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 144799478824
-  numberOfFiles: 402
-  numberOfSubjects: 28
+  numberOfBytes: 49882675276
+  numberOfFiles: 136
+  numberOfSubjects: 23
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - BehavioralEvents
-  - ElectrodeGroup
-  - Units
   - BehavioralTimeSeries
+  - Units
+  - ElectrodeGroup
+  - BehavioralEvents
 citation: Chen, Susu; Nguyen, Thinh; Li, Nuo; Svoboda, Karel (2023) Mesoscale Activity
   Map Dataset (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
@@ -68,7 +68,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2022-11-22T00:16:37.650241+00:00'
-datePublished: '2023-02-14T00:26:48.753992+00:00'
+datePublished: '2023-02-14T15:50:32.898309+00:00'
 description: 'Mesoscale Activity Map Project. Map behavior-related activity in a multi-regional
   network supporting memory-guided movement in mice. Anatomy-guided recordings from
   multiple connected brain regions, from anterior lateral motor cortex to the medulla.
@@ -88,13 +88,13 @@ manifestLocation:
 name: Mesoscale Activity Map Dataset
 protocol: []
 publishedBy:
-  endDate: '2023-02-14T00:26:48.753992+00:00'
-  id: urn:uuid:a3ca03ad-6d19-4a43-b050-bca2e3787ceb
+  endDate: '2023-02-14T15:50:32.898309+00:00'
+  id: urn:uuid:c38a0068-1bcf-456b-a02d-690cdecebd40
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-02-14T00:26:48.753992+00:00'
+  startDate: '2023-02-14T15:50:32.898309+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:f5f2ccad-3d51-4af1-9084-5cac6a0b3813
+  - id: urn:uuid:54fc885c-0d64-499a-af06-65dd6d60d0e9
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
