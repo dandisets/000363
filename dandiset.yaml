@@ -25,8 +25,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 103957143503
-  numberOfFiles: 288
+  numberOfBytes: 144799478824
+  numberOfFiles: 402
   numberOfSubjects: 28
   schemaKey: AssetsSummary
   species:
@@ -39,7 +39,7 @@ assetsSummary:
   - Units
   - BehavioralTimeSeries
 citation: Chen, Susu; Nguyen, Thinh; Li, Nuo; Svoboda, Karel (2023) Mesoscale Activity
-  Map Dataset (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000363/draft
+  Map Dataset (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: chens2@janelia.hhmi.org
@@ -68,6 +68,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2022-11-22T00:16:37.650241+00:00'
+datePublished: '2023-02-14T00:26:48.753992+00:00'
 description: 'Mesoscale Activity Map Project. Map behavior-related activity in a multi-regional
   network supporting memory-guided movement in mice. Anatomy-guided recordings from
   multiple connected brain regions, from anterior lateral motor cortex to the medulla.
@@ -75,6 +76,7 @@ description: 'Mesoscale Activity Map Project. Map behavior-related activity in a
 
   Supported by Simons Collaboration on the Global Brain, Janelia Visitor Project,
   NIH U19NS123714-01, R01NS112312, R01EB028171, McKnight foundation'
+doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000363/draft
 identifier: DANDI:000363
@@ -85,6 +87,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000363/versions/draft/assets/
 name: Mesoscale Activity Map Dataset
 protocol: []
+publishedBy:
+  endDate: '2023-02-14T00:26:48.753992+00:00'
+  id: urn:uuid:a3ca03ad-6d19-4a43-b050-bca2e3787ceb
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-02-14T00:26:48.753992+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:f5f2ccad-3d51-4af1-9084-5cac6a0b3813
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
