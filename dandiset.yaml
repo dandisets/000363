@@ -10,9 +10,9 @@ acknowledgement: Supported by Simons Collaboration on the Global Brain, Janelia 
   Project, NIH U19NS123714-01, R01NS112312, R01EB028171, McKnight foundation
 assetsSummary:
   approach:
-  - name: behavioral approach
-    schemaKey: ApproachType
   - name: electrophysiological approach
+    schemaKey: ApproachType
+  - name: behavioral approach
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
@@ -21,12 +21,12 @@ assetsSummary:
   measurementTechnique:
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 65059242446
-  numberOfFiles: 174
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 103957143503
+  numberOfFiles: 288
   numberOfSubjects: 28
   schemaKey: AssetsSummary
   species:
@@ -36,8 +36,8 @@ assetsSummary:
   variableMeasured:
   - BehavioralEvents
   - ElectrodeGroup
-  - BehavioralTimeSeries
   - Units
+  - BehavioralTimeSeries
 citation: Chen, Susu; Nguyen, Thinh; Li, Nuo; Svoboda, Karel (2023) Mesoscale Activity
   Map Dataset (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000363/draft
 contributor:
