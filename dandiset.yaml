@@ -10,22 +10,22 @@ acknowledgement: Supported by Simons Collaboration on the Global Brain, Janelia 
   Project, NIH U19NS123714-01, R01NS112312, R01EB028171, McKnight foundation
 assetsSummary:
   approach:
-  - name: behavioral approach
-    schemaKey: ApproachType
   - name: electrophysiological approach
+    schemaKey: ApproachType
+  - name: behavioral approach
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: surgical technique
+  - name: behavioral technique
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  - name: behavioral technique
+  - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 67356744204
+  numberOfBytes: 67359669940
   numberOfFiles: 174
   numberOfSubjects: 28
   schemaKey: AssetsSummary
@@ -34,8 +34,8 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - BehavioralTimeSeries
   - Units
+  - BehavioralTimeSeries
   - ElectrodeGroup
   - BehavioralEvents
 citation: Chen, Susu; Nguyen, Thinh; Li, Nuo; Svoboda, Karel (2023) Mesoscale Activity
