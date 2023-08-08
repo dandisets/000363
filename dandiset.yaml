@@ -19,14 +19,14 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: behavioral technique
+  - name: surgical technique
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  - name: surgical technique
+  - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 55551449964
-  numberOfFiles: 173
+  numberOfBytes: 52166074736
+  numberOfFiles: 172
   numberOfSubjects: 28
   schemaKey: AssetsSummary
   species:
@@ -34,10 +34,10 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - Units
+  - BehavioralEvents
   - BehavioralTimeSeries
   - ElectrodeGroup
-  - BehavioralEvents
+  - Units
 citation: Chen, Susu; Nguyen, Thinh; Li, Nuo; Svoboda, Karel (2023) Mesoscale Activity
   Map Dataset (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
