@@ -68,7 +68,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2022-11-22T00:16:37.650241+00:00'
-datePublished: '2023-08-08T20:53:32.183793+00:00'
+datePublished: '2023-08-22T01:28:32.907772+00:00'
 description: 'Mesoscale Activity Map Project. Map behavior-related activity in a multi-regional
   network supporting memory-guided movement in mice. Anatomy-guided recordings from
   multiple connected brain regions, from anterior lateral motor cortex to the medulla.
@@ -88,13 +88,13 @@ manifestLocation:
 name: Mesoscale Activity Map Dataset
 protocol: []
 publishedBy:
-  endDate: '2023-08-08T20:53:32.183793+00:00'
-  id: urn:uuid:7ced307d-c3a8-4d67-bf74-e578e89dbb3f
+  endDate: '2023-08-22T01:28:32.907772+00:00'
+  id: urn:uuid:c4a5f293-1c96-49bc-99ff-776cc1e3c7a7
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-08-08T20:53:32.183793+00:00'
+  startDate: '2023-08-22T01:28:32.907772+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:a8ff9cfd-3650-403b-8c1b-bc25028f6717
+  - id: urn:uuid:8d9cc8c0-c6a8-47c4-bac3-5602c97f1d65
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
