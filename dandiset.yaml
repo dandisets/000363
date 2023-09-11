@@ -27,8 +27,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 16507234686502
-  numberOfFiles: 212
+  numberOfBytes: 16936020572615
+  numberOfFiles: 213
   numberOfSubjects: 28
   schemaKey: AssetsSummary
   species:
