@@ -27,8 +27,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 35148242820297
-  numberOfFiles: 242
+  numberOfBytes: 35526171967402
+  numberOfFiles: 241
   numberOfSubjects: 28
   schemaKey: AssetsSummary
   species:
@@ -71,7 +71,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2022-11-22T00:16:37.650241+00:00'
-datePublished: '2023-09-11T19:39:40.490601+00:00'
+datePublished: '2023-09-17T16:30:34.256253+00:00'
 description: 'Mesoscale Activity Map Project. Map behavior-related activity in a multi-regional
   network supporting memory-guided movement in mice. Anatomy-guided recordings from
   multiple connected brain regions, from anterior lateral motor cortex to the medulla.
@@ -91,13 +91,13 @@ manifestLocation:
 name: Mesoscale Activity Map Dataset
 protocol: []
 publishedBy:
-  endDate: '2023-09-11T19:39:40.490601+00:00'
-  id: urn:uuid:85b3387d-6592-4ffc-8730-46c0efd03d33
+  endDate: '2023-09-17T16:30:34.256253+00:00'
+  id: urn:uuid:866713d7-33db-4639-bf53-3976e8481b72
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-09-11T19:39:40.490601+00:00'
+  startDate: '2023-09-17T16:30:34.256253+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:4bbbae58-52b7-4547-85d0-3eac46ea8071
+  - id: urn:uuid:4ec4a48d-873a-4326-9958-5dbc3806f424
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
